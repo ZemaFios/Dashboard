@@ -16,7 +16,7 @@
 @media (prefers-color-scheme: dark) {
 
   :root {
-    
+
     /* Global Variables */
     --main-color: #333;
 
@@ -38,15 +38,16 @@
   margin: 0;
 }
 
-html,
-body {
-  background-color: var(--main-color);
-  height: 100%;
+html {
+  font-size: 0.625rem;
 }
 
 body {
   background-color: var(--main-color);
+  height: 100%;
+  font-size: 1.6rem;
 }
+
 
 a {
   color: inherit;

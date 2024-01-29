@@ -1,0 +1,26 @@
+.gallery {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+    background-color: #111;
+}
+
+.galleryContainer {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 145px;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.button {
+    position: relative;
+    top: 135px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
